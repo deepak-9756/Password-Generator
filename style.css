@@ -1,0 +1,91 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.container{
+    padding: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+    display: flex;   
+    flex-direction: column;
+    background: transparent;
+    border: 0.5px blue solid;
+}
+
+.container h1{
+    font-size: 1.5rem;
+}
+.passBox{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 5px;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.checkBox div{
+    display: flex;
+    padding-block: 5px;
+} 
+
+label{
+    flex-basis: 100%;
+}
+
+input[type="checkbox"] {
+    width: 20px ;/* Set the desired width */
+    height: 20px; /* Set the desired height */
+    cursor: pointer;
+}
+#gntbtn{
+    border: none;
+    outline: none;
+    background-color: #2c2c2c;
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#gntbtn:hover{
+    background-color: green;
+}
+.inputBox{
+    position: relative;
+}
+#copy{
+    position: absolute;
+    right: 1%;
+    top: 25%;
+    cursor: pointer;
+    font-size: 28px;
+    color: black;
+}
+
